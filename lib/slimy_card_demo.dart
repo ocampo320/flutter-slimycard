@@ -12,7 +12,8 @@ class _SlimyCardDemoState extends State<SlimyCardDemo> {
     return Scaffold(
       backgroundColor: Colors.brown[100],
       appBar: AppBar(
-        backgroundColor: Colors.indigo[300],
+        centerTitle: true,
+        backgroundColor: Colors.pinkAccent,
         automaticallyImplyLeading: false,
         title: Text("SlimyCard"),
       ),
@@ -25,7 +26,7 @@ class _SlimyCardDemoState extends State<SlimyCardDemo> {
             children: <Widget>[
               SizedBox(height: 70),
               SlimyCard(
-                color: Colors.indigo[300],
+                color: Colors.pinkAccent,
                 topCardWidget: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
